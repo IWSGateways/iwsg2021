@@ -1,6 +1,5 @@
 # IWSG Website
 
-First Cut for IWSG 2020. Its PHP. Easy. If you need instructions, you probably shouldn't be editing this :)
-
+Pure HTML for GitHub Pages. It usese Javascript to import pages to keep this generic.
 
 
