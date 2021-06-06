@@ -34,6 +34,8 @@
     </script>
     
     <script src="./semantic/semantic.min.js"></script>
+    <script src="./semantic/components/accordion.js"></script>
+
     <script>
         $('.ui.sticky')
                 .sticky({
@@ -194,6 +196,11 @@
                 xhttp.open("GET", file, true);
                 xhttp.send();
                 /* Exit the function: */
+
+                $('.ui.accordion')
+                        .accordion()
+                ;
+
                 return;
             }
         }
@@ -204,7 +211,8 @@
     includeHTML();
 </script>
 
-
 </body>
+
+
 
 </html>
